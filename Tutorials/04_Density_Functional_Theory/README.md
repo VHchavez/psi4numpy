@@ -13,4 +13,4 @@ This module seeks to provide an overview of the theory and programming challenge
 
 - 4e GRAC: Demonstrates the failures of DFT for ionization potentials and illustrates the gradient regularized asymptotic correction (GRAC).
 
-- 4f Cubbe and Grid Files: Compares the DFT Grid with the rectangular grid used for the generation of cube files. 
+- 4f Cube and Grid Files: Compares the DFT Grid with the rectangular grid used for the generation of cube files. 
