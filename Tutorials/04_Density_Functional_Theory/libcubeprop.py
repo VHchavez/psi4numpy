@@ -76,8 +76,8 @@ def build_grid(wfn, L, D):
         Xmin[k] = Xmax[k] = geometry[0,k]
 
         for atom in range(len(geometry)):
-            Xmin[atom] = geometry[atom, k] if Xmin[atom] > geometry[atom, k] else Xmin[k]
-            Xmax[atom] = geometry[atom, k] if Xmax[atom] < geometry[atom, k] else Xmax[k]
+            Xmin[k] = geometry[atom, k] if Xmin[k] > geometry[atom, k] else Xmin[k]
+            Xmax[k] = geometry[atom, k] if Xmax[k] < geometry[atom, k] else Xmax[k]
 
         Xdel[k] = Xmax[k] - Xmin[k]
         N[k] = int((Xmax[k] - Xmin[k] + 2.0 * L[k]) / D[k])
