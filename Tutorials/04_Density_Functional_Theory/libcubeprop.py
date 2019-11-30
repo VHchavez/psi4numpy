@@ -1,5 +1,3 @@
-# Copyright (c) 2019 Victor H. Chavez
-# Copyright (c) 2019 P. R. Vaidyanathan
 # Copyright (c) 2007-2019 The Psi4 Developers.
 # Copyright (c) 2014-2018, The Psi4NumPy Developers.
 # All rights reserved.
